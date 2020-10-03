@@ -6,12 +6,12 @@ Projeto criado durante o curso da RocketSeat de NextJs.
 
 Para executar o projeto:
 
-Terminal 1:
-1- npm install
-2- npx json-server server.json -p 3333 -w
+Terminal 1:<br/><br/>
+1- npm install<br/>
+2- npx json-server server.json -p 3333 -w<br/>
 
-Terminal 2:
-1- yarn dev
+Terminal 2:<br/><br/>
+1- yarn dev<br/>
 
 ## English instructions
 
@@ -19,9 +19,10 @@ Project created in the RocketSeat NextJs course.
 
 To execute the project:
 
-Terminal 1:
-1- npm install
+Terminal 1:<br/>
+
+1- npm install<br/>
 2- npx json-server server.json -p 3333 -w
 
-Terminal 2:
-1- yarn dev
+Terminal 2:<br/><br/>
+1- yarn dev<br/>
