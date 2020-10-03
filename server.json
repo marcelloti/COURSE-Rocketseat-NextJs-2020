@@ -1,7 +1,8 @@
 {
   "categories": [
     { "id": "camisetas", "title": "Camisetas" },
-    { "id": "calcas", "title": "Calças" }
+    { "id": "calcas", "title": "Calças" },
+    { "id": "bones", "title": "Bonés" }
   ],
   "products": [
     {
@@ -31,6 +32,13 @@
       "price": 109.9,
       "category_id": "calcas",
       "slug": "calca-azul-react"
+    },
+    {
+      "id": 5,
+      "title": "Boné preto do Vuejs",
+      "price": 55.99,
+      "category_id": "bones",
+      "slug": "bone-preto-vuejs"
     }
   ],
   "recommended": [
