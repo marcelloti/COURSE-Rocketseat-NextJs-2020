@@ -1,60 +1,60 @@
 {
   "categories": [
-    { "id": "camisetas", "title": "Camisetas" },
-    { "id": "calcas", "title": "Calças" },
-    { "id": "bones", "title": "Bonés" }
+    { "id": "t-shirts", "title": "T-shirts" },
+    { "id": "pants", "title": "Pants" },
+    { "id": "caps", "title": "Caps" }
   ],
   "products": [
     {
       "id": 1,
-      "title": "Camiseta Front-end",
+      "title": "Front-end T-shirt",
       "price": 79.9,
-      "category_id": "camisetas",
-      "slug": "camiseta-front-ends"
+      "category_id": "t-shirts",
+      "slug": "front-end-t-shirt"
     },
     {
       "id": 2,
-      "title": "Camiseta CSharpolin",
+      "title": "C-Sharp T-shirt",
       "price": 69.9,
-      "category_id": "camisetas",
-      "slug": "camiseta-csharpolin"
+      "category_id": "t-shirts",
+      "slug": "c-sharp-t-shirt"
     },
     {
       "id": 3,
-      "title": "Calça preta back-end",
+      "title": "Back-end pant black",
       "price": 129.9,
-      "category_id": "calcas",
-      "slug": "calca-preta-back-end"
+      "category_id": "pants",
+      "slug": "back-end-pant-black"
     },
     {
       "id": 4,
-      "title": "Calça azul do React",
+      "title": "React pant",
       "price": 109.9,
-      "category_id": "calcas",
-      "slug": "calca-azul-react"
+      "category_id": "pants",
+      "slug": "react-pant"
     },
     {
       "id": 5,
-      "title": "Boné preto do Vuejs",
+      "title": "Black cap VueJs",
       "price": 55.99,
-      "category_id": "bones",
-      "slug": "bone-preto-vuejs"
+      "category_id": "caps",
+      "slug": "black-cap-vuejs"
     }
   ],
   "recommended": [
     {
       "id": 1,
-      "title": "Camiseta Front-end",
+      "title": "Front-end T-shirt",
       "price": 79.9,
-      "category_id": "camisetas",
-      "slug": "camiseta-front-ends"
+      "category_id": "t-shirts",
+      "slug": "front-end-t-shirt"
     },
     {
       "id": 4,
-      "title": "Calça azul do React",
+      "title": "React pant",
       "price": 109.9,
-      "category_id": "calcas",
-      "slug": "calca-azul-react"
+      "category_id": "pants",
+      "slug": "react-pant"
     }
   ]
 }

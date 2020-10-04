@@ -1,17 +1,17 @@
 # COURSE-Rocketseat-NextJs-2020
 
-## Portuguese Instructions
+## Portuguese instructions
 
 Projeto criado durante o curso da RocketSeat de NextJs.
 
 Para executar o projeto:
 
 Terminal 1:<br/><br/>
-1- npm install<br/>
-2- npx json-server server.json -p 3333 -w<br/>
+npm install<br/>
+npx json-server server.json -p 3333 -w<br/>
 
 Terminal 2:<br/><br/>
-1- yarn dev<br/>
+yarn dev<br/>
 
 ## English instructions
 
@@ -21,8 +21,8 @@ To execute the project:
 
 Terminal 1:<br/>
 
-1- npm install<br/>
-2- npx json-server server.json -p 3333 -w
+npm install<br/>
+npx json-server server.json -p 3333 -w
 
 Terminal 2:<br/><br/>
-1- yarn dev<br/>
+yarn dev<br/>

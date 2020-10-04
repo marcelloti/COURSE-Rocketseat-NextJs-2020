@@ -1,5 +1,6 @@
-import { Title } from "../styles/pages/Home"
+import { Title } from "@/styles/pages/Home"
 import { GetServerSideProps } from "next"
+import SEO from "@/components/SEO"
 
 interface IProduct {
   id: string
@@ -13,6 +14,11 @@ interface HomeProps {
 export default function Home({ recommendedProducts }: HomeProps) {
   return (
     <div>
+      <SEO
+        title="DevCommerce, your best e-commerce!"
+        shouldExcludeTitleSufix
+        image="boost.png"
+      />
       <section>
         <Title>Products</Title>
 
@@ -29,7 +35,7 @@ export default function Home({ recommendedProducts }: HomeProps) {
 }
 
 export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
-  const response = await fetch("http://localhost:3333/recommended")
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/recommended`)
   const recommendedProducts = await response.json()
 
   return {
